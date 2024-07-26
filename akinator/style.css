@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 1em Arial;
+    text-align: center;
+}   
+
+header {
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    font-weight: bold;
+}
+
+#input {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#btn {
+    color: white;
+    font-size: 1.3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(5, 99, 222);
+    width: 200px;
+    height: 45px;
+}
+
+#btn:hover {
+    background-color: rgba(26, 101, 200, 0.553);
+}
+
+
+/* Media Queries */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #btn {
+        font-size: 1.5em;
+        padding: 5px 15px;
+    }
+
+}
