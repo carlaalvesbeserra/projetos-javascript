@@ -21,15 +21,15 @@ btn.onclick = function() {
     
     if (randomNum < userValue) {
         txt.textContent = "Muito alto";
-        img.src = "akinator_intrigado.jpg";
+        img.src = "genio_alto.png";
         input.value = ""
     } else if (randomNum > userValue) {
         txt.textContent = "Muito baixo";
-        img.src = "akinator_pensativo.png";
+        img.src = "genio_baixo.png";
         input.value = ""
     } else {
         txt.textContent = "VOCÊ VENCEU";
-        img.src = "akinator_feliz.png";
+        img.src = "genio_ganhou.png";
         btn.textContent = "Jogar de novo?"
         btn.onclick = function () {
             window.location.reload(true);
